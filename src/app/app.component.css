@@ -1,0 +1,10 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--primary);
+  padding: 14px 40px;
+}
+.navbar a { color: #fff; margin-left: 20px; }
+.brand { font-size: 1.4rem; font-weight: bold; margin-left: 0 !important; }
+.container { max-width: 800px; margin: 30px auto; padding: 0 16px; }

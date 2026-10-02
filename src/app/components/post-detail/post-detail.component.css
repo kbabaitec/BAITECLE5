@@ -1,0 +1,3 @@
+.post { background: var(--card); padding: 32px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
+.meta { color: var(--muted); }
+.body { line-height: 1.7; font-size: 1.1rem; margin: 24px 0; }

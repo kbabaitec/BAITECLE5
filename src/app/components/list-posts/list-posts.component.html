@@ -1,4 +1,8 @@
-<div *ngFor="let post of posts">
-  <h3><a href="/posts/{{ post.id }}"> {{ post.title }} </a></h3>
-  <p>by {{ post.firstName }} {{ post.lastName }} ; on {{ post.dateCreated }}</p>
+<h1 class="page-title">Latest Posts</h1>
+
+<div class="post-card" *ngFor="let post of posts">
+  <h3><a href="/posts/{{ post.id }}">{{ post.title }}</a></h3>
+  <p class="meta">
+    by {{ post.firstName }} {{ post.lastName }} · {{ post.dateCreated | date:'mediumDate' }}
+  </p>
 </div>
